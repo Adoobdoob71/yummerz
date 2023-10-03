@@ -8,23 +8,52 @@ const theme: typeof DarkTheme & {
     primary_1: string;
     primary_2: string;
     primary_3: string;
+    placeholder: string;
+    accent: string;
   };
 } = {
   dark: true,
   colors: {
     background: "#071013",
-    card: "#402127",
+    card: "#091519",
     primary: "#F4917B",
     primary_1: "#eb5160",
-    primary_2: "#b7999c",
-    primary_3: "#aaaaaa",
-    border: "#dfe0e2",
+    primary_2: "#864653",
+    primary_3: "#402127",
+    accent: "#79b9ac",
+    border: "#DFE0E2",
+    placeholder: "#15333C",
     text: "#E2F0F4",
     notification: "#79313A",
   },
 };
 
-export { theme };
+const theme2: typeof DarkTheme & {
+  colors: {
+    primary_1: string;
+    primary_2: string;
+    primary_3: string;
+    placeholder: string;
+    accent: string;
+  };
+} = {
+  dark: true,
+  colors: {
+    background: "#0B191E",
+    card: "#10262D",
+    primary: "#a2533a",
+    primary_1: "#36987E",
+    primary_2: "#864653",
+    primary_3: "#402127",
+    accent: "#983650",
+    border: "#DFE0E2",
+    placeholder: "#255B6A",
+    text: "#E2F0F4",
+    notification: "#79313A",
+  },
+};
+
+export { theme2 as theme };
 
 // sizes
 

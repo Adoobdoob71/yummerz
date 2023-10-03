@@ -13,7 +13,7 @@ const Card: FC<Props> = ({ children, style }) => {
 const stylesheet = StyleSheet.create({
   card: {
     backgroundColor: theme.colors.card,
-    borderRadius: sizes.SIZE_8,
+    borderRadius: sizes.SIZE_20,
   },
 });
 
